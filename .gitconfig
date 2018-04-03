@@ -1,0 +1,4 @@
+[gui]
+	encoding = utf-8
+[alias]
+	mastertorelease = !git checkout master && git pull origin master && git checkout release && git pull origin release && git merge master && git push origin release
